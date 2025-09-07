@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/check-stock.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/check-stock",
+      "schedule": "*/10 * * * *"
+    }
+  ]
+}
